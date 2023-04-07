@@ -1,4 +1,3 @@
-import javax.swing.AbstractButton;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -65,7 +64,7 @@ public static void main(String[] args){
 public void actionPerformed(ActionEvent e){
     
     String user = userText.getText();
-    String password = password.getText();
+    String password = passwordText.getText();
 
     if(user.equals("Kacper") && password.equals("java")){
         success.setText("Login Succesful!");
